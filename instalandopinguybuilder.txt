@@ -1,0 +1,5 @@
+wget https://sourceforge.net/projects/pinguy-os/files/ISO_Builder/pinguybuilder_4.3-8_all-beta.deb/download -O pinguybuilder.deb
+
+dpkg -i pinguybuilder.deb
+
+apt-get install -f
